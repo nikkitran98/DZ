@@ -7,23 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92E8788CA2A1E0754B57020D /* Pods_DZ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C7DDDEAC19050FF9F0D979 /* Pods_DZ.framework */; };
+		CE4B24FD2A8BFB340025BF3B /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE4B24FC2A8BFB330025BF3B /* image.jpg */; };
+		CE4B24FF2A8C1B9E0025BF3B /* DZProfileHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4B24FE2A8C1B9E0025BF3B /* DZProfileHeaderViewModel.swift */; };
+		CE4B25022A8C78960025BF3B /* NeueBit-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE4B25002A8C75920025BF3B /* NeueBit-Bold.otf */; };
+		CE4B25032A8C78990025BF3B /* NeueBit-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE4B25012A8C75920025BF3B /* NeueBit-Regular.otf */; };
+		CE4B250B2A8DA6EC0025BF3B /* DZGifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4B250A2A8DA6EC0025BF3B /* DZGifView.swift */; };
+		CE70B7FA2A8E80AD000BC3ED /* DZHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE70B7F92A8E80AD000BC3ED /* DZHelpers.swift */; };
+		CE78A16A2A91C15900930995 /* DZColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE78A1692A91C15900930995 /* DZColors.swift */; };
 		CE9ED16C2A8AEB3E0073C7ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9ED16B2A8AEB3E0073C7ED /* AppDelegate.swift */; };
 		CE9ED16E2A8AEB3E0073C7ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9ED16D2A8AEB3E0073C7ED /* SceneDelegate.swift */; };
-		CE9ED1702A8AEB3E0073C7ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9ED16F2A8AEB3E0073C7ED /* ViewController.swift */; };
-		CE9ED1732A8AEB3E0073C7ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9ED1712A8AEB3E0073C7ED /* Main.storyboard */; };
+		CE9ED1702A8AEB3E0073C7ED /* DZProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9ED16F2A8AEB3E0073C7ED /* DZProfileViewController.swift */; };
 		CE9ED1752A8AEB430073C7ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9ED1742A8AEB430073C7ED /* Assets.xcassets */; };
 		CE9ED1782A8AEB430073C7ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9ED1762A8AEB430073C7ED /* LaunchScreen.storyboard */; };
+		CE9ED1802A8AF5660073C7ED /* DZUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9ED17F2A8AF5660073C7ED /* DZUser.swift */; };
+		CE9ED1822A8AF5D70073C7ED /* DZPillButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9ED1812A8AF5D70073C7ED /* DZPillButton.swift */; };
+		CE9ED1842A8B12C70073C7ED /* DZProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9ED1832A8B12C70073C7ED /* DZProfileHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27222401F3F21031D211154D /* Pods-DZ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZ.debug.xcconfig"; path = "Target Support Files/Pods-DZ/Pods-DZ.debug.xcconfig"; sourceTree = "<group>"; };
+		9A4AF48EE523477811A07E17 /* Pods-DZ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZ.release.xcconfig"; path = "Target Support Files/Pods-DZ/Pods-DZ.release.xcconfig"; sourceTree = "<group>"; };
+		CE4B24FC2A8BFB330025BF3B /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
+		CE4B24FE2A8C1B9E0025BF3B /* DZProfileHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DZProfileHeaderViewModel.swift; sourceTree = "<group>"; };
+		CE4B25002A8C75920025BF3B /* NeueBit-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeueBit-Bold.otf"; sourceTree = "<group>"; };
+		CE4B25012A8C75920025BF3B /* NeueBit-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeueBit-Regular.otf"; sourceTree = "<group>"; };
+		CE4B250A2A8DA6EC0025BF3B /* DZGifView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DZGifView.swift; sourceTree = "<group>"; };
+		CE70B7F92A8E80AD000BC3ED /* DZHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DZHelpers.swift; sourceTree = "<group>"; };
+		CE78A1692A91C15900930995 /* DZColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DZColors.swift; sourceTree = "<group>"; };
 		CE9ED1682A8AEB3E0073C7ED /* DZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9ED16B2A8AEB3E0073C7ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE9ED16D2A8AEB3E0073C7ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE9ED16F2A8AEB3E0073C7ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE9ED1722A8AEB3E0073C7ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE9ED16F2A8AEB3E0073C7ED /* DZProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DZProfileViewController.swift; sourceTree = "<group>"; };
 		CE9ED1742A8AEB430073C7ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE9ED1772A8AEB430073C7ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE9ED1792A8AEB430073C7ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9ED17F2A8AF5660073C7ED /* DZUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DZUser.swift; sourceTree = "<group>"; };
+		CE9ED1812A8AF5D70073C7ED /* DZPillButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DZPillButton.swift; sourceTree = "<group>"; };
+		CE9ED1832A8B12C70073C7ED /* DZProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DZProfileHeaderView.swift; sourceTree = "<group>"; };
+		E1C7DDDEAC19050FF9F0D979 /* Pods_DZ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DZ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,91 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92E8788CA2A1E0754B57020D /* Pods_DZ.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46A0449C3C7B5DD1E7B913BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27222401F3F21031D211154D /* Pods-DZ.debug.xcconfig */,
+				9A4AF48EE523477811A07E17 /* Pods-DZ.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		71B3F1D8256DDA93A9296E79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1C7DDDEAC19050FF9F0D979 /* Pods_DZ.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE331A432A93AE82008034FE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE9ED16F2A8AEB3E0073C7ED /* DZProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CE331A442A93AE99008034FE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE9ED1742A8AEB430073C7ED /* Assets.xcassets */,
+				CE4B24FC2A8BFB330025BF3B /* image.jpg */,
+				CE4B25012A8C75920025BF3B /* NeueBit-Regular.otf */,
+				CE4B25002A8C75920025BF3B /* NeueBit-Bold.otf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE331A452A93AEC8008034FE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CE70B7F92A8E80AD000BC3ED /* DZHelpers.swift */,
+				CE78A1692A91C15900930995 /* DZColors.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CE4B250C2A8DBAB20025BF3B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE9ED17F2A8AF5660073C7ED /* DZUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE4B250D2A8DBABB0025BF3B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE9ED1812A8AF5D70073C7ED /* DZPillButton.swift */,
+				CE4B250A2A8DA6EC0025BF3B /* DZGifView.swift */,
+				CE9ED1832A8B12C70073C7ED /* DZProfileHeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE4B250E2A8DBAC20025BF3B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CE4B24FE2A8C1B9E0025BF3B /* DZProfileHeaderViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		CE9ED15F2A8AEB3E0073C7ED = {
 			isa = PBXGroup;
 			children = (
 				CE9ED16A2A8AEB3E0073C7ED /* DZ */,
 				CE9ED1692A8AEB3E0073C7ED /* Products */,
+				46A0449C3C7B5DD1E7B913BF /* Pods */,
+				71B3F1D8256DDA93A9296E79 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,11 +152,14 @@
 		CE9ED16A2A8AEB3E0073C7ED /* DZ */ = {
 			isa = PBXGroup;
 			children = (
+				CE331A452A93AEC8008034FE /* Helpers */,
+				CE331A442A93AE99008034FE /* Resources */,
+				CE331A432A93AE82008034FE /* Controllers */,
+				CE4B250E2A8DBAC20025BF3B /* ViewModels */,
+				CE4B250D2A8DBABB0025BF3B /* Views */,
+				CE4B250C2A8DBAB20025BF3B /* Models */,
 				CE9ED16B2A8AEB3E0073C7ED /* AppDelegate.swift */,
 				CE9ED16D2A8AEB3E0073C7ED /* SceneDelegate.swift */,
-				CE9ED16F2A8AEB3E0073C7ED /* ViewController.swift */,
-				CE9ED1712A8AEB3E0073C7ED /* Main.storyboard */,
-				CE9ED1742A8AEB430073C7ED /* Assets.xcassets */,
 				CE9ED1762A8AEB430073C7ED /* LaunchScreen.storyboard */,
 				CE9ED1792A8AEB430073C7ED /* Info.plist */,
 			);
@@ -74,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE9ED17C2A8AEB430073C7ED /* Build configuration list for PBXNativeTarget "DZ" */;
 			buildPhases = (
+				CFF044A457597A15B859AA1E /* [CP] Check Pods Manifest.lock */,
 				CE9ED1642A8AEB3E0073C7ED /* Sources */,
 				CE9ED1652A8AEB3E0073C7ED /* Frameworks */,
 				CE9ED1662A8AEB3E0073C7ED /* Resources */,
+				FAF18666B8C13C81104CF18B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,19 +227,70 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE9ED1782A8AEB430073C7ED /* LaunchScreen.storyboard in Resources */,
+				CE4B25022A8C78960025BF3B /* NeueBit-Bold.otf in Resources */,
 				CE9ED1752A8AEB430073C7ED /* Assets.xcassets in Resources */,
-				CE9ED1732A8AEB3E0073C7ED /* Main.storyboard in Resources */,
+				CE4B24FD2A8BFB340025BF3B /* image.jpg in Resources */,
+				CE4B25032A8C78990025BF3B /* NeueBit-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CFF044A457597A15B859AA1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DZ-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAF18666B8C13C81104CF18B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DZ/Pods-DZ-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DZ/Pods-DZ-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DZ/Pods-DZ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE9ED1642A8AEB3E0073C7ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE9ED1702A8AEB3E0073C7ED /* ViewController.swift in Sources */,
+				CE4B24FF2A8C1B9E0025BF3B /* DZProfileHeaderViewModel.swift in Sources */,
+				CE4B250B2A8DA6EC0025BF3B /* DZGifView.swift in Sources */,
+				CE9ED1822A8AF5D70073C7ED /* DZPillButton.swift in Sources */,
+				CE9ED1802A8AF5660073C7ED /* DZUser.swift in Sources */,
+				CE9ED1702A8AEB3E0073C7ED /* DZProfileViewController.swift in Sources */,
+				CE70B7FA2A8E80AD000BC3ED /* DZHelpers.swift in Sources */,
+				CE9ED1842A8B12C70073C7ED /* DZProfileHeaderView.swift in Sources */,
+				CE78A16A2A91C15900930995 /* DZColors.swift in Sources */,
 				CE9ED16C2A8AEB3E0073C7ED /* AppDelegate.swift in Sources */,
 				CE9ED16E2A8AEB3E0073C7ED /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +299,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CE9ED1712A8AEB3E0073C7ED /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE9ED1722A8AEB3E0073C7ED /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CE9ED1762A8AEB430073C7ED /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +426,7 @@
 		};
 		CE9ED17D2A8AEB430073C7ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27222401F3F21031D211154D /* Pods-DZ.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +437,6 @@
 				INFOPLIST_FILE = DZ/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +454,7 @@
 		};
 		CE9ED17E2A8AEB430073C7ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A4AF48EE523477811A07E17 /* Pods-DZ.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +465,6 @@
 				INFOPLIST_FILE = DZ/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

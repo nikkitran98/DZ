@@ -1,12 +1,4 @@
-//
-//  AppDelegate.swift
-//  DZ
-//
-//  Created by Nikki Tran on 8/14/23.
-//
-
 import UIKit
-
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
